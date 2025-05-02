@@ -1,0 +1,11 @@
+torch==2.5.0
+torchvision==0.20.0
+diffusers
+transformers
+timm
+tqdm
+accelerate
+wandb
+requests
+ftfy
+regex
