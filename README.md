@@ -75,6 +75,7 @@ where you can set following options:
 - `--weighting`: time-step sampling during training
 - `--df-idxs`: key transformer layers where deep supervision is applied. (currently, equally-splitted)
 - `--ssl-align`: whether to use SSL align (need to set up `--enc-type` as well)
+- `--legacy-scaling`: whether to use soft-cap for scaling factor in velocity_modulation (enable this when ssl-align is enabled for reproducibility)
 
 ## Generation
 For generative samples from DeepFlow-XL/2-3T, use below evaluation script.
@@ -93,7 +94,7 @@ We release checkpoint of DeepFlow trained on ImageNet for your reference.
 
 | Dataset  | Model | SSL align | Training Epochs | Link | FID (wo/ CFG) | FID (w/ CFG) |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ImageNet-256px | DeepFlow-XL/2-3T | X | 400 | [checkpoint](https://drive.google.com/drive/folders/1e33gKc2om9WUiDKs6TTMPZA-PQ4d_5O7?usp=drive_link) | 7.2 | 1.97 |
+| ImageNet-256px | DeepFlow-XL/2-3T | X | 400 | [checkpoint](https://drive.google.com/file/d/1QXTDkeVRgfvBvyLkJcu-YJ_2pDxM73Ec/view?usp=sharing) | 7.2 | 1.97 |
 | ImageNet-256px | DeepFlow-XL/2-3T | O | 400 | [checkpoint](https://drive.google.com/file/d/1ALMz0Cdm1XSZYWTPSVEVR-sfYXsKk6Zl/view?usp=sharing) | 5.0 | 1.77 |
 
 
