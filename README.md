@@ -75,7 +75,7 @@ where you can set following options:
 - `--weighting`: time-step sampling during training
 - `--df-idxs`: key transformer layers where deep supervision is applied. (currently, equally-splitted)
 - `--ssl-align`: whether to use SSL align (need to set up `--enc-type` as well)
-- `--legacy-scaling`: whether to use soft-cap for scaling factor in velocity_modulation (enable this when ssl-align is enabled for reproducibility)
+- `--legacy-scaling`: whether to use soft-cap for scaling factor in "velocity_modulation" (enable this when ssl-align is enabled for reproducibility)
 
 ## Generation
 For generative samples from DeepFlow-XL/2-3T, use below evaluation script.
