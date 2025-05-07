@@ -106,14 +106,11 @@ The code and model weights are licensed under CC-BY-NC. See LICENSE.txt for deta
 If you find DeepFlow useful for your research and applications, feel free to give us a star ⭐ or cite us using:
 
 ```bibtex
-@misc{shin2025deeply,
-      title={Deeply Supervised Flow-Based Generative Models}, 
-      author={Inkyu Shin and Chenglin Yang and Liang-Chieh Chen},
-      year={2025},
-      eprint={2503.14494},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2503.14494}, 
+@article{shin2025deeply,
+  title={Deeply Supervised Flow-Based Generative Models},
+  author={Shin, Inkyu and Yang, Chenglin and Chen, Liang-Chieh},
+  journal={arXiv preprint arXiv:2503.14494},
+  year={2025}
 }
 ```
 
