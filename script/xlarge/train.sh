@@ -1,20 +1,16 @@
 EXP_NAME="deepflow_xlarge"
 UPPER_BOUND=0.01
 TIME_SAMPLIG="lognormal"
-DF_IDXS="8 16"
+DF_IDXS="8 16" # indicating DeepFlow-3T (8, 16, 24)
 ENC_TYPE=None # {dinov1-vit-b, dinov2-vit-b}
 TRANS_DEPTH=24
 SSL_ALIGN=false # true for SSL Alignment (REPA)
-LEGACY_SCALING=false
+LEGACY_SCALING=false # true when SSL Alignment is used
 
 # Parse command-line arguments
 for arg in "$@"
 do
   case $arg in
-    --class-dropout-prob=*)
-      CLASS_DROPOUT_PROB="${arg#*=}"
-      shift
-      ;;
     --ssl-align)
       SSL_ALIGN=true
       shift

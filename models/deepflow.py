@@ -49,10 +49,10 @@ class DeepFlow(nn.Module):
     It is seamlessly integrated into SiT block [1] for fundamental flow-based generative models.
     Furthermore, we also supprot REPA [2] for ssl alignment.
 
-    [2] Exploring Flow and Diffusion-based Generative Models with Scalable Interpolant Transformers, ECCV 2024
+    [1] Exploring Flow and Diffusion-based Generative Models with Scalable Interpolant Transformers, ECCV 2024
         Nanye Ma, Mark Goldstein, Michael Albergo, Nicholas Boffi, Eric Vanden-Eijnden, Saining Xie.
 
-    [3] Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think, ICLR 2025
+    [2] Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think, ICLR 2025
         Sihyun Yu, Sangkyung Kwak, Huiwon Jang, Jongheon Jeong, Jonathan Huang, Jinwoo Shin, Saining Xie.
     """
 
