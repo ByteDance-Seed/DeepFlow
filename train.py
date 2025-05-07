@@ -286,8 +286,6 @@ def main(args):
                 break
         if global_step >= args.max_train_steps:
             break
-
-    model.eval()  # important! This disables randomized embedding dropout
     
     accelerator.wait_for_everyone()
     if accelerator.is_main_process:

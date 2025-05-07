@@ -12,10 +12,6 @@ CFG_SCALE=1.0
 for arg in "$@"
 do
   case $arg in
-    --class-dropout-prob=*)
-      CLASS_DROPOUT_PROB="${arg#*=}"
-      shift
-      ;;
     --ssl-align)
       SSL_ALIGN=true
       shift

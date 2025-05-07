@@ -1,7 +1,7 @@
 EXP_NAME="deepflow_base"
 UPPER_BOUND=0.01
 TIME_SAMPLIG="lognormal"
-DF_IDXS="6 "
+DF_IDXS="6 " # indicating DeepFlow-2T (6, 12)
 ENC_TYPE=None # {dinov1-vit-b, dinov2-vit-b}
 TRANS_DEPTH=12
 SSL_ALIGN=false # true for SSL Alignment (REPA)

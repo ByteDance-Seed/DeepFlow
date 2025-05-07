@@ -46,7 +46,7 @@ DeepFlow is a novel flow-based generation framework that enhances velocity repre
 DeepFlow converges 8 times faster on ImageNet with equivalent performance and further reduces FID by 2.6 while halving training time compared to previous flow based models without a classifier free guidance. 
 
 # News
-[2025/05/XX]🔥We release training code, sampling code, and checkpoints of DeepFlow.
+[2025/05/07]🔥We release training code, sampling code, and checkpoints of DeepFlow.
 
 # Introduction
 DeepFlow incorporates deep supervision by evenly adding velocity prediction within transformer blocks, further enhanced by the
@@ -71,11 +71,11 @@ For training DeepFlow-XL/2-3T, use below training script.
 bash script/xlarge/train.sh
 ```
 where you can set following options:
-- `--tg-upper-bound`: time-gap between adjacent branches
-- `--weighting`: time-step sampling during training
-- `--df-idxs`: key transformer layers where deep supervision is applied. (currently, equally-splitted)
-- `--ssl-align`: whether to use SSL align (need to set up `--enc-type` as well)
-- `--legacy-scaling`: whether to use soft-cap for scaling factor in "velocity_modulation" (enable this when ssl-align is enabled for reproducibility)
+- `--tg-upper-bound`: time-gap between adjacent branches.
+- `--weighting`: time-step sampling during training.
+- `--df-idxs`: key transformer layers where deep supervision is applied. (currently, equally-splitted).
+- `--ssl-align`: whether to use SSL align (need to set up `--enc-type` as well).
+- `--legacy-scaling`: whether to use soft-cap for scaling factor in "velocity_modulation" (enable this when ssl-align is enabled for reproducibility).
 
 ## Generation
 For generative samples from DeepFlow-XL/2-3T, use below evaluation script.

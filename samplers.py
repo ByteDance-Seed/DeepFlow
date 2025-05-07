@@ -96,6 +96,10 @@ def deepflow_euler_maruyama_sampler(
             eps_i = torch.randn_like(x_cur).to(device)
             deps = eps_i * torch.sqrt(torch.abs(dt))
 
+            """
+            By assigning identical timesteps to every branch,
+            we can still achieve velocity refinement even when the time gap is zero.
+            """
             time_list = [time_input.to(dtype=_dtype)] * num_inter
             # compute drift
             output = model(
