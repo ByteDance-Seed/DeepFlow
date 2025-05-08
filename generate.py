@@ -1,9 +1,15 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates. 
+# Copyright (c) 2025 Bytedance Ltd. and/or its affiliates
+# Licensed under the CC-BY-NC 
+# This file has been modified by Inkyu Shin, ByteDance Ltd.
+#
+# Original file was released under CC-BY-NC, with the full license text
+# available at https://github.com/facebookresearch/DiT/blob/main/LICENSE.txt
+#
+# This modified file is released under the same license.
+
+
 """
-This file may have been modified by Bytedance Ltd. and/or its affiliates (“Bytedance's Modifications”).
-All Bytedance's Modifications are Copyright (year) Bytedance Ltd. and/or its affiliates. 
-
-Reference: https://github.com/sihyun-yu/REPA/generate.py
-
 DeepFlow Script for Generation.
 
 Generation pipeline was built on top of DiT [1] and SiT [2].

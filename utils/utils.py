@@ -1,7 +1,14 @@
-"""
-This file may have been modified by Bytedance Ltd. and/or its affiliates (“Bytedance's Modifications”).
-All Bytedance's Modifications are Copyright (year) Bytedance Ltd. and/or its affiliates. 
+# Copyright (c) KAIST. 
+# Copyright (c) 2025 Bytedance Ltd. and/or its affiliates
+# Licensed under the CC-BY-NC 
+# This file has been modified by Inkyu Shin, ByteDance Ltd.
+#
+# Original file was released under MIT, with the full license text
+# available at https://github.com/sihyun-yu/REPA/blob/main/LICENSE
+#
+# This modified file is released under the same license.
 
+"""
 Reference: https://github.com/sihyun-yu/REPA/utils.py
 
 DeepFlow Script to load general utils.

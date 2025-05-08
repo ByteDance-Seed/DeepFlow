@@ -1,6 +1,17 @@
+# Copyright (c) 2025 Bytedance Ltd. and/or its affiliates
+# Licensed under the CC-BY-NC 
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at 
+#
+#     https://github.com/ByteDance-Seed/DeepFlow/blob/main/LICENSE
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License. 
+
 """
-This file may have been modified by Bytedance Ltd. and/or its affiliates (“Bytedance's Modifications”).
-All Bytedance's Modifications are Copyright (year) Bytedance Ltd. and/or its affiliates. 
 
 DeepFlow Training.
 
@@ -15,7 +26,6 @@ built on top of SiT [2] and REPA [3].
 
 [3] Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think, ICLR 2025
     Sihyun Yu, Sangkyung Kwak, Huiwon Jang, Jongheon Jeong, Jonathan Huang, Jinwoo Shin, Saining Xie.
-
 
 """
 
