@@ -24,6 +24,8 @@
 
 # Deeply Supervised Flow-Based Generative Models
 
+# [ICCV 2025]
+
 <p align="center">
   <a href="https://deepflow-project.github.io/">
     <img src="https://img.shields.io/badge/DeepFlow-Project Page-yellow"></a>
@@ -46,6 +48,7 @@ DeepFlow is a novel flow-based generation framework that enhances velocity repre
 DeepFlow converges 8 times faster on ImageNet with equivalent performance and further reduces FID by 2.6 while halving training time compared to previous flow based models without a classifier free guidance. 
 
 # News
+[2025/06/25]🎉DeepFlow is accepted to ICCV 2025.
 [2025/05/07]🔥We release training code, sampling code, and checkpoints of DeepFlow.
 
 # Introduction
