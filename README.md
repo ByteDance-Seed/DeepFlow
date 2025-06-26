@@ -24,7 +24,7 @@
 
 # Deeply Supervised Flow-Based Generative Models
 
-# [ICCV 2025]
+[ICCV 2025]
 
 <p align="center">
   <a href="https://deepflow-project.github.io/">
@@ -49,6 +49,7 @@ DeepFlow converges 8 times faster on ImageNet with equivalent performance and fu
 
 # News
 [2025/06/25]🎉DeepFlow is accepted to ICCV 2025.
+
 [2025/05/07]🔥We release training code, sampling code, and checkpoints of DeepFlow.
 
 # Introduction
