@@ -24,7 +24,7 @@
 
 # Deeply Supervised Flow-Based Generative Models
 
-[ICCV 2025]
+## [ICCV 2025]
 
 <p align="center">
   <a href="https://deepflow-project.github.io/">
